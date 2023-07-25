@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+
+#navigation {
+    background-color: rgb(240, 92, 92);
+    padding: 8px 3px;
+}
+
+#logocontainer {
+    margin-left: -20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#navigation ul div#logoword {
+    font-size: 19px;
+    color: white;
+    margin-left: 6px;
+}
+
+#navigation ul div#logo {
+    background: center center/cover url('/static/logo.png');
+    height: 55px;
+    margin-top: -15px;
+    width: 55px;
+    padding-bottom: 50px;
+    filter: invert(1);
+}
+
+#navigation ul {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navigation ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+#navigation ul li a {
+    color: white;
+    padding: 8px 30px;
+    margin: 0px 4px;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+#navigation ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#intro {
+    height: 70%;
+    background: center/cover no-repeat url("/static/bglotperson.jpg");
+    background-position-y: -75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#intro div {
+    font-size: 28px;
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+#intro div#heading {
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#intro div#abcd {
+    word-spacing: 10px;
+}
+
+#missions {
+    height: 50%;
+    background-color: rgb(201, 195, 195);
+}
+
+#missions h2 {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 8px 4px;
+}
+
+#missions div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#missions div.card {
+    margin: 10px 20px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 12px;
+    width: 28%;
+    font-size: 20px;
+    padding-bottom: 180px;
+}
+
+#missions div#card1 {
+    color: white;
+    background: center/cover no-repeat url("/static/bg1person.jpg");
+    background-position-y: -21px;
+}
+
+#missions div#card2 {
+    color: black;
+    background: center/cover no-repeat url("/static/bgtraining.jpg");
+    background-position-y: -1px;
+}
+
+#missions div#card3 {
+    color: white;
+    background: center/cover no-repeat url("/static/bgprofessional.jpg");
+    background-position-y: -21px;
+}
+
+#sponsors {
+    background-color: rgb(243, 147, 147);
+    height: 42%;
+}
+
+#sponsors h2 {
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: Impact;
+    text-align: center;
+}
+
+#sponsors .sponsorlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -42px;
+}
+
+#sponsors .sponsorlogo img {
+    height: 230px;
+    padding: 8px 0px;
+    margin: 0px -10px;
+    padding-top: 30px;
+}
+
+#footer {
+    height: 30px;
+    font-size: 17px;
+    padding: 7px 2px;
+    background-color: rgb(4, 10, 29);
+    color: white;
+    text-align: center;
+}

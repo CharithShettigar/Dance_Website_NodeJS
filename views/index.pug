@@ -1,0 +1,43 @@
+html
+    head 
+        title This is dance website 
+        style 
+            include ../static/style.css
+    body 
+        nav#navigation 
+            ul 
+                div#logocontainer
+                    div#logo 
+                    div#logoword MDA
+                li #[a(href="/") Home]
+                li #[a(href="/index") Index]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Join Us]
+                li #[a(href="/contact") Contact Us]
+        
+        section#intro
+            div Welcome to My Dance Academia
+            div#heading A.B.C.D.
+            div#abcd Any   Body   Can   Dance
+
+        section#missions
+            h2 Our Missions
+            div.container
+                div.card#card1
+                    h3 Improve your dance skills
+                div.card#card2
+                    h3 Expert training
+                div.card#card3
+                    h3 Become a Professional dancer
+
+        section#sponsors
+            h2 Our Sponsors
+            div.sponsorlogo
+                img(src="../static/LogoDesign2.png", alt="logosponsor")
+                img(src="../static/LogoDesign4.png", alt="logosponsor")
+                img(src="../static/LogoDesign15.png", alt="logosponsor")
+                img(src="../static/LogoDesign301.png", alt="logosponsor")
+
+        footer#footer
+            | Copyright &copy 2021 mydanceacademia.com | All Rights Reserved 

@@ -1,0 +1,31 @@
+extends base.pug
+
+block scripts 
+
+block style
+    style 
+        include ../static/style.css
+
+block content
+    section#intro
+        div Welcome to My Dance Academia
+        div#heading A.B.C.D.
+        div#abcd Any   Body   Can   Dance
+
+        section#missions
+            h2 Our Missions
+            div.container
+                div.card#card1
+                    h3 Improve your dance skills
+                div.card#card2
+                    h3 Expert training
+                div.card#card3
+                    h3 Become a Professional dancer
+
+        section#sponsors
+            h2 Our Sponsors
+            div.sponsorlogo
+                img(src="../static/LogoDesign2.png", alt="logosponsor")
+                img(src="../static/LogoDesign4.png", alt="logosponsor")
+                img(src="../static/LogoDesign15.png", alt="logosponsor")
+                img(src="../static/LogoDesign301.png", alt="logosponsor")
